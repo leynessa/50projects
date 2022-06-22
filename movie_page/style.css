@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,300;1,500;1,900&display=swap');
 :root {
-  --primary-color: #05445E;
-  --secondary-color: #CAB5A7;
+  --primary-color: #042532;
+  --secondary-color:  #385967;
 }
 
 body {
@@ -29,11 +29,11 @@ header {
   font-family: inherit;
   font-size: 1rem;
   padding: 0.5rem 1rem;
-  color: #D4F1F4;
+  color: #08434a;
 }
 
 .search::placeholder{
-  color: #75E6DA;
+  color: #033934;
 }
 
 .search:focus {
@@ -43,10 +43,15 @@ header {
 main {
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .movie img {
   width: 100%;
+  margin: 0;
+  align-items: center;
+  object-fit: cover;
+
 }
 
 .movie {
@@ -57,6 +62,9 @@ main {
   position: relative;
   overflow: hidden;
   border-radius: 3px;
+  border-radius: 20px;
+  color: #e5f5f7;
+  align-items: center;
 }
 
 .movie-info {
@@ -70,6 +78,7 @@ main {
 
 .movie-info h3 {
   margin-top: 0;
+
 }
 
 .movie-info span {
@@ -77,6 +86,7 @@ main {
   padding: 0.35rem 0.5rem;
   border-radius: 3px;
   font-weight: bold ;
+
 }
 
 .movie-info span.green {
@@ -100,7 +110,15 @@ main {
   right: 0;
   max-height: 100%;
   transform: translateY(101%);
+  transition: transform 0.3s ease-in;
+  color: #042532;
 
+}
+.app-title{
+
+  color: #FCF8F5;
+  margin-left: -670px;
+  margin-bottom: 0px;
 }
 
 .movie:hover .overview{
