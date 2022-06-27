@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;1,300;1,500;1,900&display=swap');
+body {
+  background-color: rgb(126, 5, 134) ;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ overflow: hidden;
+ margin: 0;
+ padding: 20px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: wheat;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 100%;
+  width: 800px;
+}
+
+h3 {
+  margin: 0;
+  opacity: 0.5;
+  letter-spacing: 2px;
+}
+
+h1{
+  color: wheat;
+  font-size: 54px;
+  font-weight: 100px;
+ }
+
+ p {
+  color: aliceblue;
+  font-size: 30px;
+  text-align: left;
+ }
+
+.joke {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+.btn {
+  background-color: rgb(116, 111, 249) ;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 14px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:active{
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: 0;
+}
